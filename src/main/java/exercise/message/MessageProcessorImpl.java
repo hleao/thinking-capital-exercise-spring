@@ -31,9 +31,6 @@ public class MessageProcessorImpl implements MessageProcessor
     @Override
     public void processMessages(MessagePack messagePack)
     {
-        System.out.println(">> >>> >> processMessages >> >> >>");
-        System.out.println("jmsService: " + jmsService);
-
         Preconditions.checkArgument(messagePack.getMessages() != null,
                 "MessagePack.messages is null. Cannot process MessagePack with invalid messages");
 
