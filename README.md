@@ -1,0 +1,1 @@
+# thinking-capital-exercise
